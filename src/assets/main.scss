@@ -1,0 +1,278 @@
+.bg-nav {
+  background:hsl(194, 35%, 21%);
+}
+.h-color {
+  color: rgb(255, 255, 255);
+  margin-right:10px;
+}
+.bg-user {
+  background-color: hsl(177, 28%, 74%);
+  color: black;
+  font-weight: 400;
+}
+.my-card {
+  background:hsl(177, 28%, 74%);
+  color: black;
+  /* padding: 5px; */
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-bottom: 3px !important;
+}
+.bg-date {
+  background-color: #ffffff;
+  color: black;
+  font-weight: 500;
+  font-size: 12px;
+  padding-bottom: 1px;
+  margin-left: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 10px;
+}
+
+.bg-amount {
+  background: #00910c65;
+  color: black !important;
+  width: auto;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 1px;
+}
+.button-cancle {
+  background-color: rgb(250, 41, 41);
+  padding-right: 14px;
+  padding-left: 14px;
+  border-radius: 20px;
+  color: rgb(250, 250, 250);
+  border: 0px;
+  margin-left: 10px;
+  text-decoration:none;
+  // margin:4px;
+}
+.button-save {
+  background-color:hsl(178, 52%, 19%);
+  padding: 4px 14px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+.user-id {
+  background-color: #ffffff;
+  color: black;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.button-save:hover {
+  background-color: hsl(178, 100%, 21%);
+  color: rgb(255, 255, 255);
+}
+.button-cancle:hover {
+  background-color: #af0303;
+  color: white;
+}
+.heading {
+  color: black;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  letter-spacing: 2px;
+}
+.nav-heading {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.nav-heading:hover {
+  color: rgb(255, 254, 254);
+  font-family: sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.icon {
+  width: 12px;
+  height: 6px;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  margin-left: 5px;
+  margin-top: 4px;
+}
+.icon:hover {
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.icons {
+  font-size: 20px;
+  background-color: #4682b4;
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.icons {
+  transition: transform 0.3s ease;
+}
+
+.icons:hover {
+  transform: scale(1.2); /* Zoom in on hover */
+}
+
+.custom-profile-img {
+  width: 60px;
+  height: 60px;
+}
+
+.custom-profile-img:hover {
+  /* Add a spinning animation to the icon on hover */
+  animation: spin 5s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.button-text:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+  font-weight:600;
+
+}
+
+.action-buttons {
+  background-color:hsl(178, 52%, 19%);
+  color: white;
+  padding: 4px 14px;
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+}
+.title{
+  color: #faf9f6;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+.title:hover{
+  color: rgb(89, 197, 211);
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+.secondNav{
+  background-color: #ffffff;
+}
+
+.fixed-background {
+  background-color:hsl(194, 35%, 21%);
+}
+.fixed-text-color {
+  color: #fff; /* Change this to your desired fixed text color */
+}
+
+/* Add a CSS class for the fixed text color */
+.fixed-text-color {
+  color: #fff; /* Change this to your desired fixed text color */
+}
+
+
+.home-background {
+  background-color:hsl(194, 35%, 21%);
+}
+.home-text-color {
+  color: #fff; /* Change this to your desired home page text color */
+}
+.is-active{
+  background-color:hsl(178, 69%, 32%);
+  color: rgb(3, 3, 3) !important;
+  padding: 4px 14px;
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+}
+.dropdown-item {
+  background-color: hsl(177, 28%, 74%) !important ;
+  color: rgb(7, 7, 7) !important;
+  font-weight: 600;
+}
+.dropdown-item:hover{
+  cursor: pointer;
+  color: #faf9f6!important;
+}
+.nav-link.active {
+  background-color: hsl(179, 89%, 26%);
+  color: rgb(255, 255, 255) !important;
+  width: 100px;
+  padding: 4px 14px;
+  border: none;
+  text-decoration: none;
+  margin-right: 4px;
+  margin-left: 4px;
+  animation: zoom 1s alternate infinite;
+  margin-bottom:2px;
+}
+@keyframes zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+.text{
+  color: red;
+  font-family: monospace;
+  font-size: 24px;
+  animation: zoomInOut 10s infinite alternate;
+}
+
+@keyframes zoomInOut {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+}
